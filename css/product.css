@@ -79,6 +79,9 @@ h2{
 }
 
 /* Categories */
+.category{
+    padding-bottom: 3%;
+}
 
 /* Kids-Books */
 h3{
@@ -156,4 +159,31 @@ p{
 }
 .rom-five{
     padding-left:  2%;
+}
+
+/* Footer */
+footer{
+    background-color: #61433E;
+    height: 150px;
+}
+#state{
+    display: flex;
+    padding-left: 30%;
+    
+}
+.loc{
+    padding-left: 5%;
+    color: white;
+    padding-top: 3%;
+}
+h4{
+    font-family: 'Salsa', cursive;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+.cont{
+    padding-left: 5%;
+    color: white;
+    padding-top: 3%; 
 }
