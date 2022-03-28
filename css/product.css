@@ -95,6 +95,9 @@ h3{
 .btn{
     color: white;
 }
+.btn:hover{
+    color:#A16F67;
+}
 p{
     font-family: 'Salsa', cursive;
     font-size: 20px;
