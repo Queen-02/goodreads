@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');/* Nav-styling */
+.navbar-header{
+    font-size: 30px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.navbar-header a{
+    /* color: white; */
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+}
+strong{
+    font-family: 'Quicksand', sans-serif;
+    color: #A16F67;
+}
+scan{
+    font-family: 'Palanquin', sans-serif;
+    color: #61433E;
+    padding: 5px;
+}
+nav{
+    align-items: center;
+    text-align: center;
+
+}
+nav >ul{
+    list-style: none;
+    display: inline;
+    /* font-size:10px; */
+}
+ul>li{
+    padding: 6px;
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    color: orange;
+}
