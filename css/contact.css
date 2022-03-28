@@ -45,3 +45,28 @@ nav ul li a{
 nav ul li a:hover{
     color: orange;
 }
+h1{
+    color: black;
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.tack{
+    background: url(/images/books.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+.conn{
+    background-color: #61433e9c;
+    height: 500px;
+}
+.last{
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
