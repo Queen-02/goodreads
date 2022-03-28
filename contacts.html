@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <title>Contacts</title>
 </head>
+
 <body>
     <div class="tack">
         <div class="conn">
@@ -26,31 +28,58 @@
                 </div>
             </nav>
             <h1>Contacts Us...</h1>
-            <p class="last">"You know you've read a good book when you turn the <br>last page and feel a little as if you have lost a friend."</p>
+            <p class="last">"You know you've read a good book when you turn the <br>last page and feel a little as if
+                you have lost a friend."</p>
         </div>
     </div>
-
+    <h2>Our Staff</h2>
     <table style="width:100%">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
+        <tr id="credit">
+            <th>Name</th>
+            <th>Email</th>
+            <th>PhoneNumber</th>
         </tr>
         <tr>
-            <td>Priya</td>
-            <td>Sharma</td>
-            <td>24</td>
+            <td>Priya Sharma</td>
+            <td>priya.sharma@gmail.com</td>
+            <td>0900 238 9411</td>
         </tr>
         <tr>
-            <td>Arun</td>
-            <td>Singh</td>
-            <td>32</td>
+            <td>Arun Singh</td>
+            <td>arunsingh@gmail.com</td>
+            <td>0800 258 7631</td>
         </tr>
         <tr>
-            <td>Sam</td>
-            <td>Watson</td>
-            <td>41</td>
+            <td>Sam Watson</td>
+            <td>sam.watson@hotmail.com</td>
+            <td>0763 412 3800</td>
         </tr>
     </table>
+
+    <div class="dodo">
+        <div class="wow">
+            <form action="">
+                <h2>Send us your feedback:</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>

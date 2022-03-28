@@ -46,7 +46,7 @@ nav ul li a:hover{
     color: orange;
 }
 h1{
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 15%;
     font-family: 'Quicksand', sans-serif;
@@ -69,4 +69,40 @@ h1{
     font-size: 30px;
     color: white;
     text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    color: black;
+    font-size: 65px;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#61433E;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#A16F67;
+}
+.wow{
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 7%;
 }
