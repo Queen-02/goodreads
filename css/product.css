@@ -134,3 +134,26 @@ p{
 .book-five{
     padding-left: 2%; 
 }
+
+/* Romance */
+.rom{
+    padding-top:  2%;
+}
+.rommy{
+    display: flex;
+}
+.rom-one{
+    padding-left:  2%;
+}
+.rom-two{
+    padding-left:  2%;
+}
+.rom-three{
+    padding-left:  2%;
+}
+.rom-four{
+    padding-left:  2%;
+}
+.rom-five{
+    padding-left:  2%;
+}
