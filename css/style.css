@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');/* Nav-styling */
+.navbar-header{
+    font-size: 30px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.navbar-header a{
+    /* color: white; */
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+}
+strong{
+    font-family: 'Quicksand', sans-serif;
+    color: #A16F67;
+}
+scan{
+    font-family: 'Palanquin', sans-serif;
+    color: #61433E;
+    padding: 5px;
+}
+nav{
+    align-items: center;
+    text-align: center;
+
+}
+nav >ul{
+    list-style: none;
+    display: inline;
+    /* font-size:10px; */
+}
+ul>li{
+    padding: 6px;
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+.home{
+    background: url(/images/books.jpg);
+    /* padding-top: 5%; */
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+.good{
+    background-color: #61433e9c;
+    height: 500px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.lak{
+    display: flex;
+}
+ .book{
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    color: black;
+    font-size: 65px;
+}
+.vid{
+    padding-left: 50px;
+}
+cite{
+    font-size: 13px;
+    /* text-align: center; */
+    align-items: center;
+}
+#good{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 13px;
+}
+footer{
+    background-color: #61433E;
+    height: 150px;
+}
+#state{
+    display: flex;
+    padding-left: 30%;
+}
+.loc{
+    padding-left: 5%;
+    color: white;
+    padding-top: 3%;
+}
+h4{
+    font-family: 'Salsa', cursive;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+.cont{
+    padding-left: 5%;
+    color: white;
+    padding-top: 3%; 
+}

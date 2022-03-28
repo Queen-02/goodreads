@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');/* Nav-styling */
+.navbar-header{
+    font-size: 30px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.navbar-header a{
+    /* color: white; */
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+}
+strong{
+    font-family: 'Quicksand', sans-serif;
+    color: #A16F67;
+}
+scan{
+    font-family: 'Palanquin', sans-serif;
+    color: #61433E;
+    padding: 5px;
+}
+nav{
+    align-items: center;
+    text-align: center;
+
+}
+nav >ul{
+    list-style: none;
+    display: inline;
+    /* font-size:10px; */
+}
+ul>li{
+    padding: 6px;
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+.book{
+    background: url(/images/books.jpg);
+    /* padding-top: 5%; */
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+.hook{
+    background-color: #61433e9c;
+    height: 500px;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.bok{
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    color: black;
+    font-size: 65px;
+}
+
+/* Categories */
+
+/* Kids-Books */
+h3{
+    font-size: 40px;
+    font-family: 'Salsa', cursive;
+    padding-left: 2.5%;
+}
+.sock{
+    display: flex;
+}
+.btn{
+    color: white;
+}
+p{
+    font-family: 'Salsa', cursive;
+    font-size: 20px;
+}
+.one{
+    padding-left: 2%;
+}
+.two{
+    padding-left: 2%;
+}
+.three{
+    padding-left: 2%;
+}
+.four{
+    padding-left: 2%;
+}
+.five{
+    padding-left: 2%;
+}
+
+/* Education-Books */
+.edu{
+    padding-top:  2%;
+}
+.cate{
+    display: flex;
+}
+.book-one{
+    padding-left: 2%; 
+}
+.book-two{
+    padding-left: 2%; 
+}
+.book-three{
+    padding-left: 2%; 
+}
+.book-four{
+    padding-left: 2%; 
+}
+.book-five{
+    padding-left: 2%; 
+}
